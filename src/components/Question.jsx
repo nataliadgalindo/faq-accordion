@@ -20,7 +20,7 @@ function Question({ q, a }) {
       </section>
 
       <section className={`answer ${showAnswer ? "show" : ""}`}>
-        <h4>{a}</h4>
+        <p>{a}</p>
       </section>
       <hr />
     </section>
