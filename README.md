@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-faq-accordion-card-made-with-react-flexbox-and-grid-d8qlJK7tcD)
 - Live Site URL: (https://frontend-faq-accordion-card.netlify.app/)
 
 ## My process
