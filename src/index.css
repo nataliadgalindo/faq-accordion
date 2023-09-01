@@ -31,6 +31,11 @@ hr {
   border: 1px solid hsl(240, 5%, 91%);
 }
 
+h4 {
+  font-weight: 400;
+  margin: 12px 0;
+}
+
 .content-wrapper {
   background-color: #fff;
   width: 280px;
@@ -96,7 +101,7 @@ hr {
   transition: max-height 0.3s ease-in;
 }
 
-.answer p {
+.answer h4 {
   margin-top: 0;
 }
 

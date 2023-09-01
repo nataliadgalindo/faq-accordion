@@ -11,7 +11,7 @@ function Question({ q, a }) {
   return (
     <section>
       <section onClick={toggleAnswer} className="question">
-        <p className={`${showAnswer ? "bold" : ""}`}>{q}</p>
+        <h4 className={`${showAnswer ? "bold" : ""}`}>{q}</h4>
         <img
           className={`arrow ${showAnswer ? "turn-arrow" : ""}`}
           src={arrowIcon}
@@ -20,7 +20,7 @@ function Question({ q, a }) {
       </section>
 
       <section className={`answer ${showAnswer ? "show" : ""}`}>
-        <p>{a}</p>
+        <h4>{a}</h4>
       </section>
       <hr />
     </section>
