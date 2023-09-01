@@ -146,6 +146,7 @@ hr {
     grid-template-columns: 1fr 1fr;
     z-index: -1;
     overflow: hidden;
+    margin: 4rem 0;
   }
 
   .image-container-mobile {
@@ -155,6 +156,8 @@ hr {
   .image-container-desktop {
     display: block;
     position: relative;
+    max-width: 100%;
+    height: auto;
   }
 
   .mainImgD {
@@ -172,6 +175,7 @@ hr {
     top: -200px;
     width: 750px;
     z-index: 0;
+    height: auto;
   }
 
   .box-container {
