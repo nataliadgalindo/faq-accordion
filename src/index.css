@@ -31,9 +31,10 @@ hr {
   border: 1px solid hsl(240, 5%, 91%);
 }
 
-h4 {
+h2 {
   font-weight: 400;
   margin: 12px 0;
+  font-size: 12px;
 }
 
 .content-wrapper {
