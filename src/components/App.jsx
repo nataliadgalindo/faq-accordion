@@ -19,18 +19,18 @@ function App() {
           <img className="bgImgM" src={bgPatternMobile} alt="" />
         </section>
 
-        <section className="image-container-desktop">
+        <div className="image-container-desktop">
           <img className="mainImgD" src={illustrationDesktop} alt="" />
           <img className="bgImgD" src={bgPatternDesktop} alt="" />
-        </section>
+        </div>
 
         <section className="faq-section">
           <h1 className="title bold">faq</h1>
-          <section className="accordion">
+          <div className="accordion">
             {faq.map((item, i) => {
               return <Question key={i} q={item.q} a={item.a} />
             })}
-          </section>
+          </div>
         </section>
       </div>
     </main>

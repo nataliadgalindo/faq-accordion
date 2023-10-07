@@ -9,21 +9,21 @@ function Question({ q, a }) {
   }
 
   return (
-    <section>
-      <section onClick={toggleAnswer} className="question">
-        <h4 className={`${showAnswer ? "bold" : ""}`}>{q}</h4>
+    <div>
+      <div onClick={toggleAnswer} className="question">
+        <h2 className={`${showAnswer ? "bold" : ""}`}>{q}</h2>
         <img
           className={`arrow ${showAnswer ? "turn-arrow" : ""}`}
           src={arrowIcon}
           alt="down-arrow"
         />
-      </section>
+      </div>
 
-      <section className={`answer ${showAnswer ? "show" : ""}`}>
+      <div className={`answer ${showAnswer ? "show" : ""}`}>
         <p>{a}</p>
-      </section>
+      </div>
       <hr />
-    </section>
+    </div>
   )
 }
 
