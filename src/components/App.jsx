@@ -14,10 +14,10 @@ function App() {
       </div>
 
       <div className="content-wrapper">
-        <section className="image-container-mobile">
+        <div className="image-container-mobile">
           <img className="mainImgM" src={illustrationMobile} alt="" />
           <img className="bgImgM" src={bgPatternMobile} alt="" />
-        </section>
+        </div>
 
         <div className="image-container-desktop">
           <img className="mainImgD" src={illustrationDesktop} alt="" />
