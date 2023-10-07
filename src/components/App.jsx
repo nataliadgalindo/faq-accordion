@@ -1,27 +1,34 @@
 import { faq } from "../../data"
 import Question from "./Question"
-import illustrationMobile from "/images/illustration-woman-online-mobile.svg"
-import illustrationDesktop from "/images/illustration-woman-online-desktop.svg"
-import bgPatternMobile from "/images/bg-pattern-mobile.svg"
-import bgPatternDesktop from "/images/bg-pattern-desktop.svg"
-import boxDesktop from "/images/illustration-box-desktop.svg"
 
 function App() {
   return (
     <main>
       <div className="box-container">
-        <img className="boxImgD" src={boxDesktop} alt="" />
+        <img
+          className="boxImgD"
+          src="/images/illustration-box-desktop.svg"
+          alt=""
+        />
       </div>
 
       <div className="content-wrapper">
         <div className="image-container-mobile">
-          <img className="mainImgM" src={illustrationMobile} alt="" />
-          <img className="bgImgM" src={bgPatternMobile} alt="" />
+          <img
+            className="mainImgM"
+            src="/images/illustration-woman-online-mobile.svg"
+            alt=""
+          />
+          <img className="bgImgM" src="/images/bg-pattern-mobile.svg" alt="" />
         </div>
 
         <div className="image-container-desktop">
-          <img className="mainImgD" src={illustrationDesktop} alt="" />
-          <img className="bgImgD" src={bgPatternDesktop} alt="" />
+          <img
+            className="mainImgD"
+            src="/images/illustration-woman-online-desktop.svg"
+            alt=""
+          />
+          <img className="bgImgD" src="/images/bg-pattern-desktop.svg" alt="" />
         </div>
 
         <section className="faq-section">
